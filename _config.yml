@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Personal Web"
 title_separator          : "-"
 name                     : &name "Your Name"
-description              : &description "personal description"
+description              : &description "Welcome to here!"
 url                      : https://cyfedu-dlut.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "cyfedu-dlut/PersonalWeb"
@@ -21,7 +21,7 @@ repository               : "cyfedu-dlut/PersonalWeb"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.PNG"
   name             : "Yifei Cao"
   pronouns         : # example: "she/her"  
   bio              : "The PhD Student from DLUT"
