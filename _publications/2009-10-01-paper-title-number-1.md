@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 1"
+title: "Using segmentation with multi-scale selective kernel for visual object tracking"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
+excerpt: 'Generic visual object tracking is challenging due to various difficulties, e.g. scale variations and deformations. To solve those problems, we propose a novel multi-scale selective kernel module for tracking, which contains small-scale and large-scale branches to model the target at different scales and attention mechanism to capture the more effective appearance information of the target. In our module, we cascade multiple small-scale convolutional blocks as an equivalent large-scale branch to extract large-scale features of the target effectively. Besides, we present a hybrid strategy for feature selection to extract significant information from features of different scales. Based on the current excellent segmentation tracking framework, we propose a novel tracking network that leverages our module at multiple places in the up-sample phase to construct a more accurate and robust appearance model. Extensive experimental results show that our tracker outperforms other state-of-the-art trackers on multiple challenging benchmarks including VOT2018, TrackingNet, DAVIS-2017, and YouTube-VOS-2018 while achieves real-time tracking.'
+date: 2022/1/14
+venue: 'IEEE Signal Processing Letters'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: 'Bao F, Cao Y, Zhang S, et al. Using segmentation with multi-scale selective kernel for visual object tracking[J]. IEEE Signal Processing Letters, 2022, 29: 553-557.'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
