@@ -5,9 +5,7 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
----
-
-# Yi Fei Cao's Academic Homepage  
+---  
 
 ## Personal Information  
 - **Name**: Yifei Cao  
