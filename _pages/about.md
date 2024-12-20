@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "⚔️ Heaven rewards diligence 天道酬勤"
+title: "⚔️ Heaven rewards diligence"
 author_profile: true
 redirect_from: 
   - /about/
