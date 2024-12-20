@@ -9,56 +9,38 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Research Interests  
+- Artificial Intelligence  
+- Software Engineering    
+- Machine Learning and Deep Learning(Computer Vision, CV)
+- Visual Object Tracking
+- Visual Query Localization with 2D and 3D 
+- Egocentric Video Understanding
+- Multi-modal Learning 
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education  
+### Dalian University of Technology  
+- **Degree**: PhD (In Progress)  
+- **Field**: Software Engineering, and Computer Science and Technology  
+- **Time**: September 2022 - Present  
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+### Beijing Jiaotong University  
+- **Degree**: Master's  
+- **Field**: Software Engineering, and Computer Science and Technology  
+- **Time**: September 2020 - June 2022  
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+### North University of China  
+- **Degree**: Bachelor's  
+- **Field**: Software Engineering, and Computer Science and Technology  
+- **Time**: September 2015 - June 2019  
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Skills and Tools  
+- **Programming Languages**: Python, MatLab, Java, C++, etc.  
+- **Frameworks and Tools**: TensorFlow, PyTorch, scikit-learn, Flask, etc.  
+- **Databases**: MySQL, MongoDB, SQL Server, etc.  
+- **Development Tools**: Git, TensorRT, Docker, Jupyter Notebook, etc.  
+
+## Contact Information  
+- **Email**: yfcao@mail.dlut.edu.cn  
+- **WeChat**: cyfedu_egoalpha
+
