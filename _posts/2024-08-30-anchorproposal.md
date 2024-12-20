@@ -1,5 +1,5 @@
 ---
-title: ''
+title: '【浅显易懂系列】Anchor和Proposal区别，一看就懂也！'
 date: 2024-08-30
 permalink: /posts/2024/09/anchorproposal/
 tags:
