@@ -1091,4 +1091,97 @@ EgoCom 论文的工作日志
 
 我们创建了EgoClip，这是一个第一人称视频文本预训练数据集，包括3.8M个从Ego4D中精心选择的剪辑文本对，涵盖了各种人类日常活动。
 
+## EgoTracks
+👉[主页地址](https://ego4d-data.org/docs/data/egotracks/)👈
+一个用于长期自我中心视觉目标跟踪的新数据集。EgoTracks源自Ego4D数据集，为最近的最先进单对象跟踪器提供了显著挑战，按照传统跟踪指标，我们发现它们在我们的新数据集上的评分明显低于现有的流行基准。我们进一步展示了对STARK跟踪器可以进行的改进，以显著提高其在自我中心数据上的表现，最终形成了我们称之为EgoSTARK的基线模型。
+![egotracks](/images/egotracks.png)
+
+## IT3DEgo
+👉[主页地址](https://github.com/IT3DEgo/IT3DEgo/?tab=readme-ov-file)👈
+👉[下载地址](https://drive.usercontent.google.com/download?id=1VVszWG4mmm0g3ai3EoZw-3cGNBmZCN-9&export=download&authuser=0&confirm=t&uuid=5c7c5869-a940-426b-aca4-c058241712eb&at=APvzH3pbj50ZGV5l-i3tiO_IIEtR%3A1734692440468)👈
+
+![it3dego](/images/it3dego.png)
+
+基准数据集可在此处下载。基准数据集约为 900GB，包含以下三个部分：
+
+原始视频序列。使用 HoloLens 2 捕获的具有每帧相机姿势的 RGB-D 视频序列。视频数据按以下结构组织：
+# Raw video sequence structure
+
+├── Video Seq 1
+│   ├── pv                    # rgb camera
+│   ├── depth_ahat            # depth camera
+│   ├── vlc_ll                # left-left grayscale camera
+│   ├── vlc_lf                # left-front grayscale camera
+│   ├── vlc_rf                # right-front grayscale camera
+│   ├── vlc_rr                # right-right grayscale camera
+│   ├── mesh                  # coarse mesh of the surrounding environment
+│   ├── pv_pose.json
+│   ├── depth_ahat_pose.json
+│   ├── vlc_ll_pose.json
+│   ├── vlc_lf_pose.json
+│   ├── vlc_lf_pose.json
+│   └── vlc_rr_pose.json
+.
+.
+.
+└── Video Seq N
+每个相机姿态 JSON 文件（例如 pv_pose.json 或depth_ahat_pose.json）都包含时间戳和相机矩阵的键值对。我们还包含与每个原始视频序列相对应的校准文件。校准文件指定相机参数和每个相机之间的变换矩阵（有关更多详细信息，请参阅hl2ss）。有关在 HoloLens 2 上重新分级不同相机规格（pv、深度和灰度）的更多信息，请查看arXiv 上的此文档。
+
+注释。我们提供三种类型的注释来支持基准问题的研究。注释数据按以下结构组织：
+# Annotations structure
+
+├── Video Seq 1
+│   ├── labels.csv
+│   ├── 3d_center_annot.txt
+│   ├── motion_state_annot.txt
+│   ├── 2d_bbox_annot
+│   │   ├── 0.txt
+│   │   .
+│   |   .
+│   |   .
+│   |   └── K.txt
+│   └── visuals                 # clear visuals of object instances on a specific frame, only for visualization
+│       ├── timestamp_instance_1.png
+│       .
+│       .
+│       .
+│       └── timestamp_instance_K.png
+.
+.
+.
+└── Video Seq N
+中的每一行都label.csv描述了要跟踪的对象实例的名称，例如 cup_1。该文件motion_state_annot.txt描述了每帧的二进制对象运动状态。此文件中的每一行都具有 的格式。和instance id, timestamp_start, timestamp_end之间的间隔表示对象在此期间保持静止。换句话说，对象实例在每个间隔之外都与用户进行交互。在文件夹中，如果对象可见，我们大约每 5 帧为每个对象提供一次轴对齐的 2D 边界框。对应于中描述的第一个对象实例。中的每一行都具有 的格式。该文件在预定义的世界坐标中包含每个对象实例的 3D 中心。此文件中的每一行都具有 的格式。位置 id 以从零开始的索引描述当前对象的位置变化次数。timestamp_starttimestamp_end2d_bbox_annot0.txtlabel.csv0.txttimestamp, x_min, y_min, x_max, y_max3d_center_annot.txttimestamp_start, timestamp_end, instance id, x, y, z, location id
+
+注册信息。我们研究了两种不同的设置来指定感兴趣的对象实例：单视图在线注册 (SVOE) 和多视图预注册 (MVPE)。请查看我们的论文以了解每种注册的详细描述。
+# Single-view online enrollment (SVOE)
+
+├── Video Seq 1
+│   └── svoe.txt
+.
+.
+.
+└── Video Seq N
+
+===============================================================
+
+# Multi-view pre-enrollment (MVPE)
+
+├── Instance 1                # folder name corresponds to instance names in label.csv in the annotation folder
+│   ├── instance_image_1.jpg
+│   .
+│   .
+│   .
+│   └── instance_image_24.jpg
+.
+.
+.
+└── Instance M
+文件中的每一行svoe.txt代表instance id, timestamp, x_min, y_min, x_max, y_max。 Instand id 对应于注释文件夹中的 label.csv，索引从零开始。换句话说，中的第一个对象实例Annotations/Video Seq 1/label.csv对应于 中的实例 0 Video Seq 1/svoe.txt。
+
+## Ego-Exo4D
+👉[主页地址](https://ego-exo4d-data.org/)👈
+一个多样化、大规模的多模式、 多视图视频数据集和基准，由 740 名相机佩戴者在全球 13 个城市收集，捕捉了 1286.3 小时的熟练人类活动视频。
+![egoexo4d](/images/egoexo4d.png)
+![egoexo4d2](/images/egoexo4d2.png)
+
 # CONTINUE
