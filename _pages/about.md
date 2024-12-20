@@ -13,7 +13,7 @@ redirect_from:
 - **Ph.D Degree**: PhD Candidate (3rd Year)  
 - **BS Degree**: North University of China  
 - **MS Degree**: Beijing Jiaotong University  
-- **Advisors**: Professor [Shunli Zhang](https://faculty.bjtu.edu.cn/rjxy/8947.html#)【MS Time】, and Professor [Yu Liu](https://faculty.dlut.edu.cn/yuliu/zh_CN/index/704543/list/index.htm)【PhD Time】  
+- **Advisors**: Professor [Shunli Zhang](https://faculty.bjtu.edu.cn/rjxy/8947.html#)【MS Period】, and Professor [Yu Liu](https://faculty.dlut.edu.cn/yuliu/zh_CN/index/704543/list/index.htm)【Ph.D Period】  
 
 ## Research Areas  
 - Artificial Intelligence  
