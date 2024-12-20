@@ -53,6 +53,9 @@ tags:
 - [Ego4D](#ego4d)
 - [EgoCap](#egocap)
 - [EgoClip](#egoclip)
+- [EgoTracks](EgoTracks)
+- [IT3DEgo](#it3dego)
+- [EgoExo4D](#ego-exo4d)
 
 <img width="200%" src="./hr.gif" />
 
@@ -1094,13 +1097,13 @@ EgoCom 论文的工作日志
 ## EgoTracks
 👉[主页地址](https://ego4d-data.org/docs/data/egotracks/)👈
 一个用于长期自我中心视觉目标跟踪的新数据集。EgoTracks源自Ego4D数据集，为最近的最先进单对象跟踪器提供了显著挑战，按照传统跟踪指标，我们发现它们在我们的新数据集上的评分明显低于现有的流行基准。我们进一步展示了对STARK跟踪器可以进行的改进，以显著提高其在自我中心数据上的表现，最终形成了我们称之为EgoSTARK的基线模型。
-![egotracks](/images/egotracks.png)
+![egotracks](https://cyfedu-dlut.github.io/PersonalWeb/images/egotracks.png)
 
 ## IT3DEgo
 👉[主页地址](https://github.com/IT3DEgo/IT3DEgo/?tab=readme-ov-file)👈
 👉[下载地址](https://drive.usercontent.google.com/download?id=1VVszWG4mmm0g3ai3EoZw-3cGNBmZCN-9&export=download&authuser=0&confirm=t&uuid=5c7c5869-a940-426b-aca4-c058241712eb&at=APvzH3pbj50ZGV5l-i3tiO_IIEtR%3A1734692440468)👈
 
-![it3dego](/images/it3dego.png)
+![it3dego](https://cyfedu-dlut.github.io/PersonalWeb/images/it3dego.png)
 
 基准数据集可在此处下载。基准数据集约为 900GB，包含以下三个部分：
 
@@ -1181,7 +1184,7 @@ EgoCom 论文的工作日志
 ## Ego-Exo4D
 👉[主页地址](https://ego-exo4d-data.org/)👈
 一个多样化、大规模的多模式、 多视图视频数据集和基准，由 740 名相机佩戴者在全球 13 个城市收集，捕捉了 1286.3 小时的熟练人类活动视频。
-![egoexo4d](/images/egoexo4d.png)
-![egoexo4d2](/images/egoexo4d2.png)
+![egoexo4d](https://cyfedu-dlut.github.io/PersonalWeb/images/egoexo4d.png)
+![egoexo4d2](https://cyfedu-dlut.github.io/PersonalWeb/images/egoexo4d2.png)
 
 # CONTINUE
