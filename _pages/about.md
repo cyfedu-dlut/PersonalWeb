@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Let's take this opportunity to get to know each other better."
+title: "Heaven rewards diligence."
 author_profile: true
 redirect_from: 
   - /about/
@@ -28,7 +28,7 @@ redirect_from:
 ## Education  
 ### Dalian University of Technology  
 - **Degree**: PhD (In Progress)  
-- **Field**: Software Engineering  
+- **Field**: Software Engineering, and Computer Science and Technology  
 - **Time**: September 2022 - Present  
 
 ### Beijing Jiaotong University  
@@ -42,10 +42,10 @@ redirect_from:
 - **Time**: September 2015 - June 2019  
 
 ## Skills and Tools  
-- **Programming Languages**: Python, Java, C++  
-- **Frameworks and Tools**: TensorFlow, PyTorch, scikit-learn, Flask  
-- **Databases**: MySQL, MongoDB  
-- **Development Tools**: Git, Docker, Jupyter Notebook  
+- **Programming Languages**: Python, MatLab, Java, C++, etc.  
+- **Frameworks and Tools**: TensorFlow, PyTorch, scikit-learn, Flask, etc.  
+- **Databases**: MySQL, MongoDB, SQL Server, etc.  
+- **Development Tools**: Git, TensorRT, Docker, Jupyter Notebook, etc.  
 
 ## Contact Information  
 - **Email**: yfcao@mail.dlut.edu.cn  
