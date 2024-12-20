@@ -7,9 +7,6 @@ venue: "The internal group meeting"
 date: 2024-12-04
 location: "Dalian University of Technology"
 ---
-
-[PPT](https://cyfedu-dlut.github.io/PersonalWeb/PPT/mamba.pdf)
-
 The report was presented by me, focusing on "The Origins and Related Work of the Transition from SSM to Mamba." The main content includes:
 
 1. **Necessity of SSM**: A discussion on why SSM (State Space Model) is still needed, emphasizing its essence as a CNN (Convolutional Neural Network) transformed into an RNN (Recurrent Neural Network) and introducing the concept of nonlinear time-varying systems.
@@ -21,6 +18,10 @@ The report was presented by me, focusing on "The Origins and Related Work of the
 4. **Mamba-Based Work**: A summary of various projects related to Mamba, pointing out their similarities and differences in handling patches, 1-D sequences, positional encoding, and framework structures.
 
 5. **Complexity and Computational Efficiency**: An analysis of the differences in computational complexity between Transformers and Mamba, emphasizing Mamba's advantages in processing large-sized images.
+
+[PPT](https://cyfedu-dlut.github.io/PersonalWeb/PPT/mamba.pdf)
+
+
 
 
 
