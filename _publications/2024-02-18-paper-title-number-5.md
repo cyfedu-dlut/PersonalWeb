@@ -25,5 +25,5 @@ https://github.com/Gi-gigi/TrackFormer.'
 date: 2024-08-05
 venue: '20th International Conference, ICIC 2024'
 paperurl: 'https://cyfedu-dlut.github.io/PersonalWeb/files/trackerformer.pdf'
-citation: ''
+citation: 'Yu J, Liu Y, Wei H, et al. Towards Highly Effective Moving Tiny Ball Tracking via Vision Transformer[C]//International Conference on Intelligent Computing. Singapore: Springer Nature Singapore, 2024: 368-379.'
 ---
