@@ -3,12 +3,12 @@ title: '国内下载Ego4D数据集'
 date: 2024-09-13
 permalink: /posts/2024/09/ego4ddownload/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - Ego4D Dataset
+  - AWS S3 cli
+  - technical skills
 ---
 
-【国内下载Ego4D数据集】
+第一人称视角数据集Ego4D的下载对于国人来说不友好，那么我们除了通过VPN挂载北美相关节点获取到的大容量流量下载之外，是否还有其他方式？这里作者亲身实测给出相关技术要领。
 
 下面是如何使用 AWS S3 CLI 下载 Ego4D 数据集的完整步骤。为了加速下载，建议使用 AWS EC2 实例进行中转，最终通过 SCP 下载数据到本地。
 
