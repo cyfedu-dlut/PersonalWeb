@@ -23,7 +23,7 @@ knowledge, LaTBT is the first large-scale dataset for tiny ball tracking. Experi
 proposed benchmark dataset. The dataset and the algorithm code are available at
 https://github.com/Gi-gigi/TrackFormer.'
 date: 2024-08-05
-venue: ''
+venue: '20th International Conference, ICIC 2024'
 paperurl: 'https://cyfedu-dlut.github.io/PersonalWeb/files/trackerformer.pdf'
 citation: ''
 ---
