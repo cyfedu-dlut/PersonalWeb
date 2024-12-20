@@ -6,7 +6,6 @@ permalink: /talks/talkmamba
 venue: "The internal group meeting"
 date: 2024-12-04
 location: "Dalian University of Technology"
-excerpt: "Mamba papers sharing<br/><img src='/images/MAMBA.png'>"
 ---
 
 [PPT](https://cyfedu-dlut.github.io/PersonalWeb/PPT/mamba.pdf)
