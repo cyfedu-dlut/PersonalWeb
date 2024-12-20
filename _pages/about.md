@@ -1,12 +1,11 @@
 ---
 permalink: /
-title: "Heaven rewards diligence."
+title: "Heaven rewards diligence天道酬勤"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---  
-
 ## Personal Information  
 - **Name**: Yifei Cao  
 - **University**: Dalian University of Technology  
