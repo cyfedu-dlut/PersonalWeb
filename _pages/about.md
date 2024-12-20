@@ -9,11 +9,11 @@ redirect_from:
 ## Personal Information  
 - **Name**: Yifei Cao  
 - **University**: Dalian University of Technology  
-- **College**: School of Software, International Information Software College  
-- **Degree**: PhD Candidate (3rd Year)  
-- **Undergraduate**: North University of China  
-- **Graduate**: Beijing Jiaotong University  
-- **Advisors**: Professor [Shunli Zhang](https://faculty.bjtu.edu.cn/rjxy/8947.html#), and Professor [Yu Liu](https://faculty.dlut.edu.cn/yuliu/zh_CN/index/704543/list/index.htm)  
+- **Current College**: School of Software, International Information Software College  
+- **Ph.D Degree**: PhD Candidate (3rd Year)  
+- **BS Degree**: North University of China  
+- **MS Degree**: Beijing Jiaotong University  
+- **Advisors**: Professor [Shunli Zhang](https://faculty.bjtu.edu.cn/rjxy/8947.html#)【MS Time】, and Professor [Yu Liu](https://faculty.dlut.edu.cn/yuliu/zh_CN/index/704543/list/index.htm)【PhD Time】  
 
 ## Research Areas  
 - Artificial Intelligence  
